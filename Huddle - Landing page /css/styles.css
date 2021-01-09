@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  background-image: url("/Users/manuelnenninger/Documents/Udemy/Coding-Challenges/Huddle - Landing page /images/bg-desktop.svg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: hsl(257, 40%, 49%);
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  color: white;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 2;
+  font-size: 1.1rem;
+  color: white;
+}
+
+a {
+  font-family: 'Poppins', sans-serif;
+}
+
+.top {
+  padding: 50px 0 50px 50px;
+}
+
+.middle {
+  text-align: left;
+}
+
+.mockups {
+  float: left;
+  margin-left: 150px;
+  margin-right: 100px;
+}
+
+.bottom {
+  margin-top: 250px;
+  text-align: right;
+}
+
+.socialicon {
+  width: 35px;
+  margin: 50px 5px 5px 5px;
+}
+
+.regestrierbutton {
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  color: #000000;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  padding: 20px 60px 20px 60px;
+  background-color: #FFFFFF;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.regestrierbutton:hover {
+  background: #DD380D;
+  border: solid #DD380D 0;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  text-decoration: none;
+}
